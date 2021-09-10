@@ -52,8 +52,8 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    var audio_1 = new Audio("sound/duck.mp3");
-    audio_1.play();
+    var audio = new Audio("sound/duck.mp3");
+    audio.play();
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
     var leftY = $("#yes").css("left");
